@@ -16,12 +16,8 @@ jobs:
       - name: Configure Pages
         id: pages
         uses: actions/configure-pages@v5
-      - name: Install Emacs
-        run: sudo apt-get update && sudo apt-get install -y emacs-nox
       - name: Install build tools
         run: bash scripts/setup.sh
-      - name: Export Org files
-        run: make export
       - name: Build website
         env:
           HUGO_BASEURL: ${{ steps.pages.outputs.base_url }}/
