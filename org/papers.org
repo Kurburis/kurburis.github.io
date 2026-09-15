@@ -4,7 +4,7 @@
 #+export_file_name: papers
 #+options: toc:nil num:nil author:nil
 #+hugo_custom_front_matter: :hideMeta true
-# bibliography: ./my_publications.bib
+# bibliography: publications.bib
 #+cite_export: csl publications.csl
 
 
