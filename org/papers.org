@@ -1,0 +1,21 @@
+#+title: Papers
+#+hugo_base_dir: ../
+#+hugo_section: /
+#+export_file_name: papers
+#+options: toc:nil num:nil author:nil
+#+hugo_custom_front_matter: :hideMeta true
+# bibliography: ./my_publications.bib
+#+cite_export: csl publications.csl
+
+
+# [cite/nocite:@kamberovicDigitalAITools2027;@krilasevicDistortionReductionPhotovoltaic2023;@krilasevicLearningGeneralizedNash2023;@ciuffoRoboticCompetitionsDesign2023;@krilasevicCommentsProportionalintegralExtremumseeking2022;@krilasevicExtremumSeekingAlgorithm2021;@krilasevicLearningGeneralizedNash2021;@vanderlindenHybridSourceSeeking2021;@krilasevicIntegralNashEquilibrium2020;@velagicIdentificationModelValidation2018]
+
+[cite/nocite:@*]
+
+* Publications
+
+#+print_bibliography: :keyword my :notkeyword preprint
+
+* Preprints
+
+#+print_bibliography: :keyword my,preprint

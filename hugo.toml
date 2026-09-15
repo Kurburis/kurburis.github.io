@@ -1,0 +1,44 @@
+baseURL = 'https://example.org/'
+locale = 'en-US'
+title = 'suad.bio'
+theme = 'PaperMod'
+enableRobotsTXT = true
+disableKinds = ['taxonomy', 'term', 'RSS']
+
+[params]
+  description = 'Suad Krilašević — control, optimization, and multi-agent systems.'
+  defaultTheme = 'dark'
+  disableThemeToggle = true
+  hideMeta = true
+  disableScrollToTop = true
+  disableAnchoredHeadings = true
+  ShowShareButtons = false
+  ShowReadingTime = false
+  [params.label]
+    text = 'suad.bio'
+
+[params.assets]
+  theme_color = '#1e1e2e'
+  msapplication_TileColor = '#1e1e2e'
+
+[menus]
+  [[menus.main]]
+    name = 'Bio'
+    pageRef = '/'
+    weight = 10
+  [[menus.main]]
+    name = 'Papers'
+    pageRef = '/papers'
+    weight = 20
+  [[menus.main]]
+    name = 'Team'
+    pageRef = '/team'
+    weight = 30
+  [[menus.main]]
+    name = 'Datasets'
+    pageRef = '/datasets'
+    weight = 40
+
+# Org CSL export generates bibliography HTML.
+[markup.goldmark.renderer]
+  unsafe = true

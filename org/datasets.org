@@ -1,0 +1,15 @@
+#+title: Datasets
+#+hugo_base_dir: ../
+#+hugo_section: /
+#+export_file_name: datasets
+#+options: toc:nil num:nil author:nil
+#+hugo_custom_front_matter: :hideMeta true
+
+* Bosnia and Herzegovina Scientific Publications
+A collection of approximately 110,000 scientific publications by authors connected to Bosnia and Herzegovina. It combines records from the BH Academic Directory and OpenAlex, including works by researchers who have held an affiliation in the country.
+
+The dataset includes publication details, authors, affiliations, citation counts, and research topics, supporting analysis of research output and collaboration. The accompanying repository provides tools for collecting, cleaning, merging, and visualizing the data.
+
+*License:* CC BY 4.0. Automatically collected records may contain errors or incomplete metadata.
+
+[[https://huggingface.co/datasets/xuad/bh_publications_2025][Dataset on Hugging Face]] · [[https://github.com/Kurburis/bosnia_and_herzegovina_publications_extractor][Code and documentation]]
