@@ -4,7 +4,7 @@ setup:
 	bash scripts/setup.sh
 export:
 	emacs --batch -Q --load scripts/export.el
-build: export
+build:
 	$(HUGO) --minify
-serve: export
+serve:
 	$(HUGO) server --bind 127.0.0.1

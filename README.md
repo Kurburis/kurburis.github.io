@@ -2,6 +2,14 @@
 
 Catppuccin Mocha PaperMod with a mauve accent and IBM Plex Mono. Write content in Org files.
 
+## Current publishing workflow
+
+Export Org files manually in Doom with `C-c C-e H H`, then commit the generated files in `content/`.
+Doom uses `~/Zotero/reference.bib` through `org-cite-global-bibliography` for papers.
+`make serve` and `make build` use the existing Markdown without exporting Org.
+GitHub Actions builds the committed Markdown. No bibliography copy is required in this repository.
+Do not use the standalone `make export` for papers: it starts Emacs without your Doom bibliography settings.
+
 ## Preview
 
 The build tools are already available in this workspace. Run:
