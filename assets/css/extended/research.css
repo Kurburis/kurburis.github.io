@@ -53,3 +53,9 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
 .csl-entry { margin-block: 0 28px; padding-bottom: 24px; border-bottom: 1px solid var(--border); line-height: 1.7; }
 .csl-entry .csl-block:first-of-type { margin-bottom: 8px; font-weight: 600; }
 .csl-entry a { overflow-wrap: anywhere; }
+
+.contact-icons { display: flex; gap: 16px; margin-block: 12px 24px; }
+.post-content .contact-icons a { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; box-shadow: none; border: 1px solid var(--border); border-radius: 6px; color: var(--secondary); }
+.contact-icons a:hover { color: var(--accent); border-color: var(--accent); }
+.contact-icons span { display: flex; }
+.contact-icons svg { width: 24px; height: 24px; }

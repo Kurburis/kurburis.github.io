@@ -41,4 +41,4 @@ I am an assistant professor at the International University of Sarajevo. My rese
 
 ## Contact {#contact}
 
-[Email](mailto:skrilasevic@ius.edu.ba)
+{{< contacts >}}

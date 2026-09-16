@@ -31,4 +31,6 @@ I am an assistant professor at the International University of Sarajevo. My rese
 - *2013* — Honourable mention, International Physics Olympiad, Denmark.
 
 * Contact
-[[mailto:skrilasevic@ius.edu.ba][Email]]
+#+begin_export hugo
+{{< contacts >}}
+#+end_export

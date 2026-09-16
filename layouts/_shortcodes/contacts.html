@@ -1,0 +1,7 @@
+<div class="contact-icons" aria-label="Contact links">
+  {{ range site.Params.socialIcons }}
+  <a href="{{ .url | safeURL }}" aria-label="{{ .title }}" title="{{ .title }}"{{ if ne .name "email" }} rel="me"{{ end }}>
+    <span aria-hidden="true">{{ partial "svg.html" . }}</span>
+  </a>
+  {{ end }}
+</div>

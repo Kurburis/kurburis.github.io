@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://suad.bio/'
 locale = 'en-US'
 title = 'suad.bio'
 theme = 'PaperMod'
@@ -42,3 +42,19 @@ disableKinds = ['taxonomy', 'term', 'RSS']
 # Org CSL export generates bibliography HTML.
 [markup.goldmark.renderer]
   unsafe = true
+
+[[params.socialIcons]]
+  name = 'email'
+  title = 'Email'
+  url = 'mailto:skrilasevic@ius.edu.ba'
+[[params.socialIcons]]
+  name = 'linkedin'
+  title = 'LinkedIn'
+  url = 'https://www.linkedin.com/in/suad-krila%C5%A1evi%C4%87/'
+[[params.socialIcons]]
+  name = 'github'
+  title = 'GitHub'
+  url = 'https://github.com/Kurburis/'
+
+[params.footer]
+  text = 'Written in [Org](https://orgmode.org/) · Exported with [ox-hugo](https://ox-hugo.scripter.co/)'
