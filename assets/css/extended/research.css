@@ -59,3 +59,14 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
 .contact-icons a:hover { color: var(--accent); border-color: var(--accent); }
 .contact-icons span { display: flex; }
 .contact-icons svg { width: 24px; height: 24px; }
+
+/* Org biography tables: dates stay aligned as descriptions wrap. */
+.bio-page .post-content table { display: table; width: 100%; table-layout: auto; margin: 20px 0 28px; border-collapse: collapse; font-size: inherit; }
+.bio-page .post-content table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+article.bio-page .post-content.md-content table tbody td { border: 0; padding: 10px 0; vertical-align: top; text-align: left; }
+article.bio-page .post-content.md-content table tbody td:first-child { width: 170px; padding-right: 24px; color: var(--secondary); font-size: 14px; }
+.bio-page .post-content table tr { background: transparent; }
+@media (max-width: 600px) {
+  article.bio-page .post-content.md-content table tbody td:first-child { width: 116px; padding-right: 16px; font-size: 12px; }
+  article.bio-page .post-content.md-content table tbody td { overflow-wrap: break-word; }
+}
