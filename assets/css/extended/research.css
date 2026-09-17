@@ -70,3 +70,35 @@ article.bio-page .post-content.md-content table tbody td:first-child { width: 17
   article.bio-page .post-content.md-content table tbody td:first-child { width: 116px; padding-right: 16px; font-size: 12px; }
   article.bio-page .post-content.md-content table tbody td { overflow-wrap: break-word; }
 }
+
+/* Team tables share the quiet alignment of the biography. */
+.team-page .post-content table { display: table; width: 100%; table-layout: auto; margin: 16px 0 28px; border-collapse: collapse; font-size: inherit; }
+.team-page .post-content table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+article.team-page .post-content.md-content table tbody td { border: 0; padding: 10px 0; vertical-align: top; text-align: left; line-height: 1.7; }
+article.team-page .post-content.md-content table tbody td:first-child { width: 240px; padding-right: 24px; }
+article.team-page .post-content.md-content table tbody td:last-child { color: var(--secondary); }
+.team-page .post-content table tr { background: transparent; }
+@media (max-width: 600px) {
+  article.team-page .post-content.md-content table tbody td:first-child { width: 40%; padding-right: 16px; }
+  article.team-page .post-content.md-content table tbody td { overflow-wrap: break-word; }
+}
+
+/* Separate each project roster from its description. */
+.team-page .post-content h3 {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin: 32px 0 12px;
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.team-page .post-content h3::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+.team-page .post-content h3 + table { margin-top: 0; }

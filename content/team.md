@@ -1,5 +1,6 @@
 +++
 title = "Team"
+layout = "team"
 draft = false
 hideMeta = true
 +++
@@ -16,10 +17,12 @@ We are building a Lean 4 library of machine-checked proofs for control theory an
 
 ### Team members {#team-members}
 
--   **Adnan Muradbegović** — University of Sarajevo, Faculty of Electrical Engineering.
--   **Zerina Tanović** — International University of Sarajevo, Faculty of Engineering and Natural Sciences.
--   **Vedad Čolaković** — University of Sarajevo, Faculty of Mechanical Engineering.
--   **Mahir Salibašić** — University of Tuzla, Faculty of Natural Sciences and Mathematics.
+| Name                   | Affiliation                                                                        |
+|------------------------|------------------------------------------------------------------------------------|
+| **Adnan Muradbegović** | University of Sarajevo, Faculty of Electrical Engineering.                         |
+| **Zerina Tanović**     | International University of Sarajevo, Faculty of Engineering and Natural Sciences. |
+| **Vedad Čolaković**    | University of Sarajevo, Faculty of Mechanical Engineering.                         |
+| **Mahir Salibašić**    | University of Tuzla, Faculty of Natural Sciences and Mathematics.                  |
 
 
 ## Extremum Seeking MPPT Against Commercial Power Optimizers {#extremum-seeking-mppt-against-commercial-power-optimizers}
@@ -31,5 +34,7 @@ We investigate extremum seeking for maximum power point tracking (MPPT) in solar
 
 ### Team members {#team-members}
 
--   **Amer Ganic** — University of Sarajevo, Faculty of Electrical Engineering.
--   **Sanjin Halilhodžić** — University of Tuzla, Faculty of Electrical Engineering.
+| Name                   | Affiliation                                                |
+|------------------------|------------------------------------------------------------|
+| **Amer Ganic**         | University of Sarajevo, Faculty of Electrical Engineering. |
+| **Sanjin Halilhodžić** | University of Tuzla, Faculty of Electrical Engineering.    |
